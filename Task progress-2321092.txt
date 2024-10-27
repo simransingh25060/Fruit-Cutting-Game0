@@ -1,0 +1,13 @@
+Name: Simran Singh 
+Student: 2321092
+Domain: Frontend Developer
+Group-7
+
+Task: To create a fruit cutting game.
+
+PROGRESS:
+Date: 27/10/2024
+
+1. Created a welcome page for the game, similar to the design selected by the team.
+   ~added animations
+   
