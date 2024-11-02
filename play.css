@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(img/wodden\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    user-select: none;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 40vw;
+    margin-left: 30vw;
+    background-color: rgba(130, 22, 22, 0.927);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+}
+#score{
+    font-weight: bolder;
+    font-size: 5vh;
+    color: yellow;
+    cursor: pointer;
+}
+ #game-area {
+    position: relative;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+}
+
+.fruit {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    user-select: none;
+    transition: top 0.1s; 
+}
+.cut {
+    font-size: 50px; 
+    transition: opacity 1s;
+    opacity: 0.8;
+}
