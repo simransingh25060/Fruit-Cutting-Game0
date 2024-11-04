@@ -243,4 +243,11 @@ img {
         animation-iteration-count: infinite;
         animation-direction: alternate;
     } 
+    #sound, #about, #music, #back{
+        width: 30vw;
+        height: 6vh;
+        font-size: 3vh;
+
+    }
 }
+

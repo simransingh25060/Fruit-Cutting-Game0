@@ -25,7 +25,7 @@ body{
     margin-top: 15vh;
 }
 #play{
-    margin: 5vh 0vh 2vh 0vh;
+    margin: 3vh 0vh 2vh 0vh;
     width: 12vw;
     height: 6vh;
     font-size: 4vh;
@@ -58,24 +58,11 @@ body{
     animation: scale-in-out 3s infinite ease-in-out;
     cursor: pointer;
 }
-#filling {
-    font-size: 3vw; 
+h4{
     color: rgba(60, 5, 5, 0.927);
-    width: 18vw;
-    padding: 10px; 
-    border: none; 
-    border-radius: 10px; 
-    background: none;
-    font-family: "Shadows Into Light", cursive;
-    font-weight: bold;
-} 
-#filling::placeholder{
-    color: rgba(60, 5, 5, 0.927);
-    border: none;
-}
-input{
-    border: none;
-    outline: none;
+    font-size: 6vh;
+    display: flex;
+    justify-content: center;
 }
 .fruits{
     height: 0vh;
@@ -238,13 +225,17 @@ img {
     } 
     #play{
         margin: 5vh 0vh 2vh 0vh;
-        width: 15vw;
+        width: 25vw;
         height: 6vh;
         font-size: 3vh;
     }
     #setting{
-        width: 20vw;
+        width: 30vw;
         height: 6vh;
         font-size: 2.5vh;
+
+    }
+    h4{
+        font-size: 4vh;
     }
 }
