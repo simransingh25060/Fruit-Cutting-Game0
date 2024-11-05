@@ -9,7 +9,7 @@ body{
 #signin{
     background-image: url("img/loginbackground.png");
     background-size: cover;
-    height: 737px;
+    height: 110vh;
     width: 430px;
     margin: 0px;
     display: flex;
@@ -260,6 +260,22 @@ form{
     margin-left: 150px;
     margin-bottom: 0;
     margin-top: 80px;
+    animation-name: sanimationimg;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sanimationimg{
+    from{
+        height: 400px;
+        width: 70%;
+    }
+    to{
+        height: 410px;
+        width: 71%;
+    }
 }
 @keyframes aanimation{
     from{

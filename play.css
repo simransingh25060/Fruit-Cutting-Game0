@@ -8,6 +8,17 @@ body{
     background-attachment: fixed;
     user-select: none;
 }
+#falling-fruits-btn{
+    position: absolute;
+     top: 20px; 
+     right: 20px;
+     color: yellow;
+     background-color:rgba(130, 22, 22, 0.927) ; 
+     height: 4vh;
+     width: 20vw;
+     font-size: 3vh;
+     border-radius: 20px;
+}
 .nav{
     display: flex;
     justify-content: center;

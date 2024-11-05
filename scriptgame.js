@@ -19,10 +19,10 @@ const bombSound = new Audio('./bomb2.mp3');
 const backgroundMusic = new Audio('./05. Dance of the Dragon Fruit.mp3'); 
 
 
-
 const bomb = { img: 'img/bomb png.png' }; 
 const gameArea = document.getElementById('game-area');
 const scoreDisplay = document.getElementById('score');
+const fallingFruitsBtn = document.getElementById('falling-fruits-btn');
 let score = 0;
 let fallenFruitsCount = 0; 
 let gameActive = true;
@@ -44,7 +44,7 @@ function spawnFruit() {
     fruit.className = 'fruit';
     fruit.src = fruits[fruitIndex].img;
     fruit.dataset.name = fruits[fruitIndex].name; 
-    fruit.style.left = Math.random() * (gameArea.clientWidth - 50) + 'px';
+    fruit.style.left = Math.random() * (gameArea.clientWidth - 150) + 'px';
     fruit.style.top = '0px'; 
 
     gameArea.appendChild(fruit);
@@ -58,7 +58,10 @@ function spawnFruit() {
             gameArea.removeChild(fruit); 
             fallenFruitsCount++; 
 
-            if (fallenFruitsCount > 2) {
+            fallingFruitsBtn.innerText = `Unsliced Fruits Dropped: ${fallenFruitsCount}`;
+
+
+            if (fallenFruitsCount > 3) {
                 endGame(); 
             }
         }
@@ -94,6 +97,7 @@ function cutFruit(fruit, fruitIndex, fallInterval) {
         }
     }, 20);
 }
+
 
 function spawnBomb() {
     const bombElement = document.createElement('img');

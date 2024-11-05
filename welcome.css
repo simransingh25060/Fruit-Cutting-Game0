@@ -23,6 +23,16 @@ body{
     z-index: 1;
     font-family: "Gravitas One", serif;
     margin-top: 15vh;
+    animation: scale-in-out 4s infinite ease-in-out;
+}
+
+@keyframes scale-in-out {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
 }
 #play{
     margin: 3vh 0vh 2vh 0vh;
@@ -63,6 +73,7 @@ h4{
     font-size: 6vh;
     display: flex;
     justify-content: center;
+    animation: scale-in-out 4s infinite ease-in-out;
 }
 .fruits{
     height: 0vh;
