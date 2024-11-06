@@ -6,6 +6,8 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 0;
+    overflow:hidden;
+    height:100%;
 }
 .fru{
     height: 60px;
