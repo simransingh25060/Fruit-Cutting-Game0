@@ -5,6 +5,8 @@ body{
     background-image: url(img/wodden\ background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+     height: 100%; 
+    overflow: hidden; 
     background-attachment: fixed;
     user-select: none;
 }
