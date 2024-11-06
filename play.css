@@ -81,6 +81,11 @@ body{
     z-index: 99999999;
   }
 @media (max-width: 900px) {
+    .circle {
+    height: 0px;
+    width: 0px;
+  }
+
 .nav{
     display: flex;
     justify-content: center;
