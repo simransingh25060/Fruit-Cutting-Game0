@@ -87,7 +87,7 @@ body{
     align-items: center;
     height: 8vh;
     width:30vw;
-    margin-left: 12vw;
+    margin-left: 20vw;
     background-color: rgba(130, 22, 22, 0.927);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px ;
@@ -118,7 +118,7 @@ body{
     position: absolute;
      top: 5px; 
      right: 5px;
-     height: 6vh;
+     height: 7vh;
      width: 20vw;
      font-size: 1.5vh;
      border-radius: 20px;
