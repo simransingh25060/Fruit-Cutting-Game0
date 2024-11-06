@@ -5,6 +5,10 @@ body{
    margin: 0;
    display: flex;
    flex-direction: row;
+    height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   overflow: hidden;
 }
 #signin{
     background-image: url("img/loginbackground.png");
