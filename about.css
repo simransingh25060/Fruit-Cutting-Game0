@@ -6,8 +6,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow:hidden;
-    height:100%;
 }
 #about {
     max-width: 50vw;
